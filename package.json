@@ -1,0 +1,28 @@
+{
+  "name": "mcp-mesh",
+  "version": "0.1.0",
+  "description": "让同一个 agent 会话内跨机器互发消息：MCP 阻塞等待 + 常驻 mesh 节点",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "mesh-node": "./mesh-node.mjs",
+    "mesh-mcp": "./mesh-mcp.mjs"
+  },
+  "files": [
+    "mesh-node.mjs",
+    "mesh-mcp.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mesh",
+    "multi-agent",
+    "lan",
+    "agent"
+  ]
+}
