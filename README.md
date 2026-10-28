@@ -1,4 +1,4 @@
-# mcp-mesh
+# workbuddy-plugin-mesh
 
 在 WorkBuddy 的**同一个会话内**，和另一台机器上的 agent（DSH / 本套 node）互相收发消息。
 
